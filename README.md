@@ -136,6 +136,9 @@ Or with ModelSim/Questa/Vivado Simulator, add all source files to the project an
 1. Each time the UART asserts `data_ready`, the RX shift register captures the received byte and shifts it in.
 2. After 16 bytes, `rx_128_done` is asserted and `rx_data_out` holds the complete 128-bit word.
 
+<img width="1734" height="942" alt="image" src="https://github.com/user-attachments/assets/6b27b254-5827-4e69-bdfe-6203fe5a7bef" />
+
+
 ---
 
 ## License
